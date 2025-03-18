@@ -13,3 +13,8 @@ docker build -t titanic-service:latest .
 
 docker run -d --name titanic-service -p 5000:5000 titanic-service:latest
  ```
+
+## Streamlit
+```
+streamlit run streamlit_app.py
+```
